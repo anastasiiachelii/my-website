@@ -1,0 +1,26 @@
+
+.card {
+    border: 1px solid;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.card img {
+    width: 100%;
+}
+
+div span{
+    color: rgb(0, 0, 0);
+}
+
+@media (max-width: 939px) {
+    .wrapper {grid-template-columns: repeat(2, 1fr);}
+}
+@media (max-width: 695px) {
+    .wrapper {grid-template-columns: repeat(1, 1fr);}
+}
